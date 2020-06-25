@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+          http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+    version="2.1"> 
+    <persistence-unit name="customerDB">
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=Test_Customer" />
+            <property name="javax.persistence.jdbc.user" value="dungbeo01234" />
+            <property name="javax.persistence.jdbc.password" value="rengarr" />
+            <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+            <property name="spring.jpa.show-sql" value="true"/>
+            <property name="hibernate.enable_lazy_load_no_trans" value="true" />
+            <property name="spring.jpa.hibernate.ddl-auto" value="update"/>
+            <property name="spring.jpa.hibernate.naming.strategy=org.hibernate.cfg.ImprovedNamingStrategy" value="true"/>
+        </properties>
+    </persistence-unit>
+    
+    
+    </persistence>

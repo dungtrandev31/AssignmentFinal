@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/index.jsp=UTF-8
+encoding//src/net/codejava/config/DataSeedingListener.java=UTF-8
+encoding//src/net/codejava/config/WebAppConfig.java=UTF-8
+encoding//src/net/codejava/config/WebMvcConfig.java=UTF-8
+encoding//src/net/codejava/controller/MainController.java=UTF-8
+encoding//src/net/codejava/service/UserDetailServiceImpl.java=UTF-8
